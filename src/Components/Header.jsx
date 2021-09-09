@@ -18,7 +18,7 @@ function LoginMenuItem({authInfo}) {
     return (<><Link to="/login">Вход</Link></>)
 }
 
-function Header(props) {
+function Header() {
     const authInfo = useSelector(state => state);
 
     return (
